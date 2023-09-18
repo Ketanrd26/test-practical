@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 5vw;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+    position: sticky;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+#logo-icon{
+  height: 30px;
+  width: 30px;
+}
+h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #0000ff;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    padding: 11px 0;
+}
+    
+
+
+.right{
+    margin-left: 286px;
+}
+
+.right ul {
+    display: flex;
+    padding-top: 11px;
+    
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+#icons {
+    height: 10px;
+    width: 8px;
+}
+.box{
+    height: 4vw;
+    width: 150px;
+    background-color: #0000ff;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.left-main{
+     height: 38vw;
+     width: 94vw;
+     background-color: #0000ff;
+}
+.right-main{
+    height: 38vw;
+    width: 100%;
+    background-image: url(medium-shot-scientists-posing-together_23-2148969982.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+p{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 200px ;
+    margin-left: 30px
+    
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+#no{
+    color: #ffffff;
+
+}
+h6{
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+    padding-top: 250px;
+    padding-left: 140px;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
